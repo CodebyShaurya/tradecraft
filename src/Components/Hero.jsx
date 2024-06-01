@@ -13,7 +13,7 @@ export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <div className="bg-white">
+    <div >
     
 
       <div className="relative isolate px-6 pt-14 lg:px-8">
@@ -21,8 +21,8 @@ export default function Example() {
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden  sm:-top-80"
           aria-hidden="true"
         >
-          <img className=" relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg]  opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
-             src='https://i.pinimg.com/originals/95/b1/74/95b1740c752a275ebc66b61e4776b682.png'/>
+          {/* <img className=" relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg]  opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
+             src='https://i.pinimg.com/originals/95/b1/74/95b1740c752a275ebc66b61e4776b682.png'/> */}
           {/* <div
             className=" relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
             style={{
@@ -48,7 +48,7 @@ export default function Example() {
               >
                 Get started
               </a>
-              <a href="#" className="text-2xl font-semibold leading-6 text-gray-900">
+              <a href="#Hero_Section" className="text-2xl font-semibold leading-6 text-gray-900">
                 Learn more <span aria-hidden="true">→</span>
               </a>
             </div>
@@ -58,9 +58,9 @@ export default function Example() {
           className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden sm:top-[calc(100%-50rem)]"
           aria-hidden="true"
         >
-          <img 
+          {/* <img 
           className="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
-             src='https://i.pinimg.com/originals/95/b1/74/95b1740c752a275ebc66b61e4776b682.png'/>
+             src='https://i.pinimg.com/originals/95/b1/74/95b1740c752a275ebc66b61e4776b682.png'/> */}
           {/* <div
             className="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
             style={{
@@ -72,36 +72,7 @@ export default function Example() {
       </div>
 
 
-      <div className="bg-white px-6 py-10 sm:py-10">
-        <div className="mx-auto max-w-7xl sm:px-10  lg:px-8 py-10  border-8 border-black rounded">
-          <dl className="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3 ">
-            <div className="mx-auto flex max-w-xs flex-col gap-y-4 ">
-              <dt className="text-base leading-7 text-gray-600">
-                Transactions every 24 hours
-              </dt> 
-              <dd className="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
-                44 million
-              </dd>
-            </div>
-            <div className="mx-auto flex max-w-xs flex-col gap-y-4">
-              <dt className="text-base leading-7 text-gray-600">
-                Assets under holding
-              </dt>
-              <dd className="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
-                $119 trillion
-              </dd>
-            </div>
-            <div className="mx-auto flex max-w-xs flex-col gap-y-4">
-              <dt className="text-base leading-7 text-gray-600">
-                New users annually
-              </dt>
-              <dd className="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
-                46,000
-              </dd>
-            </div>
-          </dl>
-        </div>
-      </div>
+      
 
 
 
