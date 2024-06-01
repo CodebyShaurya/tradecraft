@@ -115,7 +115,7 @@ export default function Example() {
           </a>
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#" className="text-lg  font-semibold leading-6 text-gray-100 rounded py-2.5 px-2.5 bg-[#FFD700] hover:py-3.5 hover:px-3.5">
+          <a href="#" className="text-lg  font-semibold leading-6 text-gray-100 rounded py-2.5 px-2.5 bg-[#cdc99b] hover:py-3.5 hover:px-3.5">
             Log in <span aria-hidden="true">&rarr;</span>
           </a>
         </div>
